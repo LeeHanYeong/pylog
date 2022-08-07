@@ -207,31 +207,31 @@ ul.posts {
       line-height: 50px;
       border-radius: 2px; }
 
-.post-add-container {
+#post-add {
   padding: 59px 0; }
-  .post-add-container input, .post-add-container textarea {
+  #post-add input, #post-add textarea {
     border: none;
     padding: 10px; }
-    .post-add-container input:focus, .post-add-container textarea:focus {
+    #post-add input:focus, #post-add textarea:focus {
       outline: none; }
-  .post-add-container textarea {
+  #post-add textarea {
     width: 100%;
     min-height: 100px;
     box-sizing: border-box;
     resize: none; }
-  .post-add-container > form {
+  #post-add > form {
     width: 100%; }
-    .post-add-container > form > div {
+    #post-add > form > div {
       padding: 10px; }
-      .post-add-container > form > div > label {
+      #post-add > form > div > label {
         vertical-align: top;
         font-size: 16px;
         line-height: 40px; }
-    .post-add-container > form > div:nth-of-type(1) {
+    #post-add > form > div:nth-of-type(1) {
       border-bottom: 1px solid #ddd; }
-      .post-add-container > form > div:nth-of-type(1) > input {
+      #post-add > form > div:nth-of-type(1) > input {
         font-size: 18px; }
-  .post-add-container .btn-post-add {
+  #post-add .btn-post-add {
     position: fixed;
     top: 14px;
     right: 20px;
