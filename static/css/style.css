@@ -231,7 +231,7 @@ ul.posts {
       border-bottom: 1px solid #ddd; }
       #post-add > form > div:nth-of-type(1) > input {
         font-size: 18px; }
-  #post-add .btn-post-add {
+  #post-add > form > button {
     position: fixed;
     top: 14px;
     right: 20px;
