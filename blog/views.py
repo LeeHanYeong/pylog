@@ -11,5 +11,5 @@ def post_list(request):
     return render(request, "post_list.html", context)
 
 
-def post_detail(request):
+def post_detail(request, post_id):
     return render(request, "post_detail.html")
